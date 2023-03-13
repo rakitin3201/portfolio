@@ -1,7 +1,7 @@
 <footer class="container-fluid py-5 bg-dark text-white">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-8 col-md">
                 <div class="row">
                     <div class="col-6 col-md">
                         <h4>{{ __('OSS') }}</h4>
