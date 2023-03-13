@@ -5,6 +5,12 @@ use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\HomeController;
 
 use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\OssController;
+use App\Http\Controllers\ProjetController;
+use App\Http\Controllers\AboutController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +25,11 @@ use App\Http\Controllers\LogoutController;
 
 Route::middleware(['throttle:60, 1'])->group(function () {
     Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
+    Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+    Route::get('/oss', [OssController::class, 'index'])->name('oss');
+    Route::get('/projet', [ProjetController::class, 'index'])->name('projet');
+    Route::get('/about', [AboutController::class, 'index'])->name('about');
+    Route::post('/newsletter/subscribe/', [NewsletterController::class, 'subscribe'])->name('subscribe-newsletter');
 });
 
 Auth::routes();

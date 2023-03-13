@@ -22,9 +22,10 @@
                 <div class="col-md-4 mb-3">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <h4 class="card-title">{{ __('PORTFOLIO') }}</h4>
-                            <div class="card-text">PORTFOLIO PORTFOLIO PORTFOLIO</div>
+                            <h4 class="card-title">{{ __('TITRE PROJET') }}</h4>
+                            <div class="card-text">Contenu du projet</div>
                         </div>
+                        <div class="card-footer">Repertoire associe</div>
                     </div>
                 </div>
 
