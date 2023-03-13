@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-md-8 mb-3">
-            <div class="oss">
+            <div style="border-left: 5px solid blue;background-color: aqua;">
                 <div class="mx-3 p-3">
                     <h5>find myself very happy to create & shared libraries. They're helping me, so maybe you find them the same way. If that so, I'd really appreciate your feedback and little $$$ (via Github sponsoring). I am currently handling about 242 libraries across various organizations.</h5>
                 </div>
