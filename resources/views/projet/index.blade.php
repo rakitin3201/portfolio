@@ -25,7 +25,13 @@
                             <h4 class="card-title">{{ __('TITRE PROJET') }}</h4>
                             <div class="card-text">Contenu du projet</div>
                         </div>
-                        <div class="card-footer">Repertoire associe</div>
+                        <div class="card-footer">
+                            <div class="btn-group">
+                                <a class="btn btn-sm border rounded" href="github.com/rakintin3201">dfghj</a>
+                                <a class="btn btn-sm border rounded mx-3" href="github.com/rakintin3201">dfghj</a>
+                                <a class="btn btn-sm border rounded" href="github.com/rakintin3201">dfghj</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

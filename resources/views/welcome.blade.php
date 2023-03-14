@@ -17,17 +17,11 @@
         </div>
 
         <div class="col-md-8 mb-5">
-            <div class="row">
-
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-title">{{ __('PORTFOLIO') }}</h4>
-                            <div class="card-text">PORTFOLIO PORTFOLIO PORTFOLIO</div>
-                        </div>
-                    </div>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title">{{ __('PORTFOLIO') }}</h4>
+                    <div class="card-text">Section en cours de developpement</div>
                 </div>
-
             </div>
         </div>
 

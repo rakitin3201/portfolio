@@ -20,6 +20,7 @@
             <div style="border-left: 5px solid blue;background-color: aqua;">
                 <div class="mx-3 p-3">
                     <h5>find myself very happy to create & shared libraries. They're helping me, so maybe you find them the same way. If that so, I'd really appreciate your feedback and little $$$ (via Github sponsoring). I am currently handling about 242 libraries across various organizations.</h5>
+                    <p class="h5">Cette section contient les projets deployer sur Github</p>
                 </div>
             </div>
         </div>
@@ -28,8 +29,9 @@
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Etoile</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,21 +39,7 @@
                         <th scope="row">1</th>
                         <td>Mark</td>
                         <td>Otto</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
                         <td>Otto</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
                     </tr>
                 </tbody>
             </table>

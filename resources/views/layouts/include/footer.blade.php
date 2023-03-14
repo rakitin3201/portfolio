@@ -4,10 +4,10 @@
             <div class="col-6 col-md">
                 <h4>{{ __('OSS') }}</h4>
                 <ul class="list-unstyled text-small">
-                    <li><a target="_blank" href="https://github.com/contributte" class="link-secondary">{{ __('Contributte') }}</a></li> 
-                    <li><a target="_blank" href="https://github.com/f00b4r" class="link-secondary">{{ __('f00b4r') }}</a></li> 
-                    <li><a target="_blank" href="https://github.com/juicyfx" class="link-secondary">{{ __('Juicy(fx)') }}</a></li> 
-                    <li><a target="_blank" href="https://github.com/dockette" class="link-secondary">{{ __('Dockette') }}</a></li>
+                    <li><a target="_blank" href="https://github.com/rakitin3201" class="link-secondary">{{ __('Contributte') }}</a></li> 
+                    <li><a target="_blank" href="https://github.com/rakitin3201" class="link-secondary">{{ __('f00b4r') }}</a></li> 
+                    <li><a target="_blank" href="https://github.com/rakitin3201" class="link-secondary">{{ __('Juicy(fx)') }}</a></li> 
+                    <li><a target="_blank" href="https://github.com/rakitin3201" class="link-secondary">{{ __('Dockette') }}</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
@@ -22,10 +22,10 @@
             <div class="col-6 col-md">
                 <h4>{{ __('Resources') }}</h4>
                 <ul class="list-unstyled text-small">
-                    <li><a target="_blank" href="https://github.com/rakitin3201" class="link-secondary">{{ __('Github') }}</a></li> 
-                    <li><a target="_blank" href="https://LinkedIn.com" class="link-secondary">{{ __('LinkedIn') }}</a></li> 
-                    <li><a target="_blank" href="https://facebook.com" class="link-secondary">{{ __('Facebook') }}</a></li> 
-                    <li><a target="_blank" href="https://revolut.com" class="link-secondary">{{ __('Revolut') }}</a></li>
+                    <li><a target="_blank" href="https://www.github.com/rakitin3201" class="link-secondary">{{ __('Github') }}</a></li> 
+                    <li><a target="_blank" href="https://www.linkedin.com" class="link-secondary">{{ __('LinkedIn') }}</a></li> 
+                    <li><a target="_blank" href="https://www.facebook.com/adama.niada.142" class="link-secondary">{{ __('Facebook') }}</a></li> 
+                    <li><a target="_blank" href="https://www.revolut.com" class="link-secondary">{{ __('Revolut') }}</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md">
@@ -42,10 +42,10 @@
             <div class="col-sm-12 border-top">
                 <div class="row">
                     <div class="col-sm-10">
-                        {{(' Rewritten by ')}} <a href="https://f3l1x.io" class="font-bold hover:underline">{{ __('rakitin3201') }}</a>
-                        {{(' coding with ')}} <a href="https://laravel.com" class="font-bold hover:underline">{{ __('laravel') }}</a>
-                        {{('. Powered by ')}} <a href="https://laravel.com" class="font-bold hover:underline">{{ __('vercel') }}</a> {{('.')}}
-                        <a href="https://github.com/f3l1x/f3l1x" class="font-bold hover:underline">{{ __('Open source code') }}</a> {{('.')}}
+                        {{(' Rewritten by ')}} <a href="https://www.adama-portfolio.vercel.app" class="font-bold hover:underline">{{ __('rakitin3201') }}</a>
+                        {{(' coding with ')}} <a href="https://www.laravel.com" class="font-bold hover:underline">{{ __('laravel') }}</a>
+                        {{('. Powered by ')}} <a href="https://www.vercel.app" class="font-bold hover:underline">{{ __('vercel') }}</a> {{('.')}}
+                        <a href="https://github.com/rakitin3201/portfolio" class="font-bold hover:underline">{{ __('Open source code') }}</a> {{('.')}}
                     </div>
                     <div class="col-sm-2 d-flex">
                         <a target="_blank" href="https://github.com/rakitin3201" class="inline-flex px-4 py-2 opacity-50 hover:opacity-100">
