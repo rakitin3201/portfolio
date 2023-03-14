@@ -49,6 +49,15 @@
         "DB_HOST": "127.0.0.1",
         "DB_PORT": "3306",
         "DB_USERNAME": "root",
-        "DB_PASSWORD": "mypass"
+        "DB_PASSWORD": "mypass",
+
+        "MAIL_MAILER": "smtp",
+        "MAIL_HOST": "smtp.gmail.com",
+        "MAIL_PORT": "465",
+        "MAIL_USERNAME": "a77272199@gmail.com",
+        "MAIL_PASSWORD": "obneqvutzqwbgiol",
+        "MAIL_ENCRYPTION": "tls",
+        "MAIL_FROM_ADDRESS": "a77272199@gmail.com",
+        "MAIL_FROM_NAME": "${APP_NAME}"
     }
 }

@@ -7,7 +7,7 @@
 
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{ url('/') }}">{{ Config::get('APP_NAME', 'PORTFOLIO') }}</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('blog') }}">BLOG</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('oss') }}">OSS</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('projet') }}">PROJETS</a></li>

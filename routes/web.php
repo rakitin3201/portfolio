@@ -35,6 +35,14 @@ Route::middleware(['throttle:60, 1'])->group(function () {
 Auth::routes();
 
 Route::middleware(['throttle:60, 1', 'auth'])->group(function () {
+    // Route::get('/register', function () {
+    //     return view('auth.register');
+    // })->name('register');
+
+    // Route::get('/login', function () {
+    //     return view('auth.login');
+    // })->name('login');
+
     Route::get('/home', [HomeController::class, 'index'])->name('home');
 
     Route::get('/logout', [LogoutController::class, 'perForm'])->name('logout.perForm');
