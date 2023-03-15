@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+// use Illuminate\Support\Facades\Http;
+use GrahamCampbell\GitHub\Facades\GitHub;
 
 class OssController extends Controller
 {
@@ -11,7 +13,12 @@ class OssController extends Controller
      */
     public function index()
     {
+        // $github = GitHub::me()->organizations();
+        // $repositories =GitHub::repo()->show('rakitin3201', 'php-sqlite');
+        // $repo =GitHub::repo()->all();
+
         return view('oss.index');
+    
     }
 
     /**

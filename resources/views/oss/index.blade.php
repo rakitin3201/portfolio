@@ -19,6 +19,27 @@
         <div class="col-md-8 mb-3">
             <div style="border-left: 5px solid blue;background-color: aqua;">
                 <div class="mx-3 p-3">
+                    {{-- @foreach ($repositories  as $repo)
+                        {{$repo->id}}
+                        {{$repo->name}}
+                        {{$repo->full_name}}
+                        {{$repo->html_url}}
+                        {{$repo->description}}
+                        {{$repo->url}}
+                        {{$repo->languages_url}}
+                        {{$repo->created_at}}
+                        {{$repo->updated_at}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                        {{$repo->id}}
+                    @endforeach --}}
                     <h5>find myself very happy to create & shared libraries. They're helping me, so maybe you find them the same way. If that so, I'd really appreciate your feedback and little $$$ (via Github sponsoring). I am currently handling about 242 libraries across various organizations.</h5>
                     <p class="h5">Cette section contient les projets deployer sur Github</p>
                 </div>
